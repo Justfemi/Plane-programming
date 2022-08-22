@@ -14,7 +14,7 @@ public class SpinPropellerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // transform.Rotate(Vector3.right * Time.deltaTime);
-        transform.Rotate(0, 0, Time.deltaTime * spinSpeed);
+        transform.Rotate(Vector3.up * Time.deltaTime * spinSpeed);
+        // transform.Rotate(0, 0, Time.deltaTime * spinSpeed);
     }
 }
